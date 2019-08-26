@@ -12,6 +12,8 @@
 		5C23263E231029210045798D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5C23263C231029210045798D /* Main.storyboard */; };
 		5C232640231029240045798D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5C23263F231029240045798D /* Assets.xcassets */; };
 		5C232643231029240045798D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5C232641231029240045798D /* LaunchScreen.storyboard */; };
+		5CC0763C2314850A00FFDE1B /* info-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 5CC0763B2314850A00FFDE1B /* info-icon.png */; };
+		5CC0763E231487DB00FFDE1B /* Cartoon Mike_trans-2.gif in Resources */ = {isa = PBXBuildFile; fileRef = 5CC0763D231487DB00FFDE1B /* Cartoon Mike_trans-2.gif */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		5C23263F231029240045798D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5C232642231029240045798D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5C232644231029240045798D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5CC0763B2314850A00FFDE1B /* info-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "info-icon.png"; sourceTree = "<group>"; };
+		5CC0763D231487DB00FFDE1B /* Cartoon Mike_trans-2.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "Cartoon Mike_trans-2.gif"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +58,7 @@
 		5C232637231029210045798D /* Single Day Diet */ = {
 			isa = PBXGroup;
 			children = (
+				5CC0763A231484E300FFDE1B /* Images */,
 				5C232638231029210045798D /* AppDelegate.swift */,
 				5C23263A231029210045798D /* ViewController.swift */,
 				5C23263C231029210045798D /* Main.storyboard */,
@@ -62,6 +67,15 @@
 				5C232644231029240045798D /* Info.plist */,
 			);
 			path = "Single Day Diet";
+			sourceTree = "<group>";
+		};
+		5CC0763A231484E300FFDE1B /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				5CC0763D231487DB00FFDE1B /* Cartoon Mike_trans-2.gif */,
+				5CC0763B2314850A00FFDE1B /* info-icon.png */,
+			);
+			path = Images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -124,7 +138,9 @@
 			files = (
 				5C232643231029240045798D /* LaunchScreen.storyboard in Resources */,
 				5C232640231029240045798D /* Assets.xcassets in Resources */,
+				5CC0763C2314850A00FFDE1B /* info-icon.png in Resources */,
 				5C23263E231029210045798D /* Main.storyboard in Resources */,
+				5CC0763E231487DB00FFDE1B /* Cartoon Mike_trans-2.gif in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
