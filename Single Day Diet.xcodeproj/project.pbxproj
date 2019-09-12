@@ -14,6 +14,9 @@
 		5C232643231029240045798D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5C232641231029240045798D /* LaunchScreen.storyboard */; };
 		5CC0763C2314850A00FFDE1B /* info-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 5CC0763B2314850A00FFDE1B /* info-icon.png */; };
 		5CC0763E231487DB00FFDE1B /* Cartoon Mike_trans-2.gif in Resources */ = {isa = PBXBuildFile; fileRef = 5CC0763D231487DB00FFDE1B /* Cartoon Mike_trans-2.gif */; };
+		5CF2417323295C26001B11C2 /* AboutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CF2417223295C26001B11C2 /* AboutViewController.swift */; };
+		5CF241752329615E001B11C2 /* LeftToRightSegue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CF241742329615E001B11C2 /* LeftToRightSegue.swift */; };
+		5CF241772329634C001B11C2 /* RightToLeftSegue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CF241762329634C001B11C2 /* RightToLeftSegue.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +29,9 @@
 		5C232644231029240045798D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5CC0763B2314850A00FFDE1B /* info-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "info-icon.png"; sourceTree = "<group>"; };
 		5CC0763D231487DB00FFDE1B /* Cartoon Mike_trans-2.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "Cartoon Mike_trans-2.gif"; sourceTree = "<group>"; };
+		5CF2417223295C26001B11C2 /* AboutViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutViewController.swift; sourceTree = "<group>"; };
+		5CF241742329615E001B11C2 /* LeftToRightSegue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeftToRightSegue.swift; sourceTree = "<group>"; };
+		5CF241762329634C001B11C2 /* RightToLeftSegue.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RightToLeftSegue.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,7 +66,10 @@
 			children = (
 				5CC0763A231484E300FFDE1B /* Images */,
 				5C232638231029210045798D /* AppDelegate.swift */,
+				5CF2417223295C26001B11C2 /* AboutViewController.swift */,
 				5C23263A231029210045798D /* ViewController.swift */,
+				5CF241742329615E001B11C2 /* LeftToRightSegue.swift */,
+				5CF241762329634C001B11C2 /* RightToLeftSegue.swift */,
 				5C23263C231029210045798D /* Main.storyboard */,
 				5C23263F231029240045798D /* Assets.xcassets */,
 				5C232641231029240045798D /* LaunchScreen.storyboard */,
@@ -151,7 +160,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5CF2417323295C26001B11C2 /* AboutViewController.swift in Sources */,
+				5CF241772329634C001B11C2 /* RightToLeftSegue.swift in Sources */,
 				5C23263B231029210045798D /* ViewController.swift in Sources */,
+				5CF241752329615E001B11C2 /* LeftToRightSegue.swift in Sources */,
 				5C232639231029210045798D /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -305,7 +317,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.mjc.Single-Day-Diet";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mjc.one-day-diet";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -323,7 +335,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.mjc.Single-Day-Diet";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mjc.one-day-diet";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
