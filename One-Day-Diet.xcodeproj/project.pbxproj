@@ -20,7 +20,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		5C232635231029210045798D /* Single Day Diet.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Single Day Diet.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5C232635231029210045798D /* One-Day-Diet.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "One-Day-Diet.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5C232638231029210045798D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5C23263A231029210045798D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		5C23263D231029210045798D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -48,7 +48,7 @@
 		5C23262C231029210045798D = {
 			isa = PBXGroup;
 			children = (
-				5C232637231029210045798D /* Single Day Diet */,
+				5C232637231029210045798D /* One-Day-Diet */,
 				5C232636231029210045798D /* Products */,
 			);
 			sourceTree = "<group>";
@@ -56,12 +56,12 @@
 		5C232636231029210045798D /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				5C232635231029210045798D /* Single Day Diet.app */,
+				5C232635231029210045798D /* One-Day-Diet.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		5C232637231029210045798D /* Single Day Diet */ = {
+		5C232637231029210045798D /* One-Day-Diet */ = {
 			isa = PBXGroup;
 			children = (
 				5CC0763A231484E300FFDE1B /* Images */,
@@ -75,7 +75,7 @@
 				5C232641231029240045798D /* LaunchScreen.storyboard */,
 				5C232644231029240045798D /* Info.plist */,
 			);
-			path = "Single Day Diet";
+			path = "One-Day-Diet";
 			sourceTree = "<group>";
 		};
 		5CC0763A231484E300FFDE1B /* Images */ = {
@@ -90,9 +90,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		5C232634231029210045798D /* Single Day Diet */ = {
+		5C232634231029210045798D /* One-Day-Diet */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 5C232647231029240045798D /* Build configuration list for PBXNativeTarget "Single Day Diet" */;
+			buildConfigurationList = 5C232647231029240045798D /* Build configuration list for PBXNativeTarget "One-Day-Diet" */;
 			buildPhases = (
 				5C232631231029210045798D /* Sources */,
 				5C232632231029210045798D /* Frameworks */,
@@ -102,9 +102,9 @@
 			);
 			dependencies = (
 			);
-			name = "Single Day Diet";
+			name = "One-Day-Diet";
 			productName = "Single Day Diet";
-			productReference = 5C232635231029210045798D /* Single Day Diet.app */;
+			productReference = 5C232635231029210045798D /* One-Day-Diet.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -122,7 +122,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 5C232630231029210045798D /* Build configuration list for PBXProject "Single Day Diet" */;
+			buildConfigurationList = 5C232630231029210045798D /* Build configuration list for PBXProject "One-Day-Diet" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -135,7 +135,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				5C232634231029210045798D /* Single Day Diet */,
+				5C232634231029210045798D /* One-Day-Diet */,
 			);
 		};
 /* End PBXProject section */
@@ -345,7 +345,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		5C232630231029210045798D /* Build configuration list for PBXProject "Single Day Diet" */ = {
+		5C232630231029210045798D /* Build configuration list for PBXProject "One-Day-Diet" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				5C232645231029240045798D /* Debug */,
@@ -354,7 +354,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		5C232647231029240045798D /* Build configuration list for PBXNativeTarget "Single Day Diet" */ = {
+		5C232647231029240045798D /* Build configuration list for PBXNativeTarget "One-Day-Diet" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				5C232648231029240045798D /* Debug */,
