@@ -13,7 +13,7 @@
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Single_Day_Diet" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="One_Day_Diet" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -365,7 +365,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="About"/>
                                 <connections>
-                                    <segue destination="x5I-Ga-0Vl" kind="custom" customClass="RightToLeft" customModule="Single_Day_Diet" customModuleProvider="target" id="w0N-ua-Zuf"/>
+                                    <segue destination="x5I-Ga-0Vl" kind="custom" customClass="RightToLeft" customModule="One_Day_Diet" customModuleProvider="target" id="w0N-ua-Zuf"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -394,7 +394,7 @@
         <!--About View Controller-->
         <scene sceneID="vcQ-H8-bVj">
             <objects>
-                <viewController id="x5I-Ga-0Vl" customClass="AboutViewController" customModule="Single_Day_Diet" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="x5I-Ga-0Vl" customClass="AboutViewController" customModule="One_Day_Diet" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="A42-l4-2Ux">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -417,13 +417,13 @@
                                 <rect key="frame" x="16" y="165" width="343" height="441"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
                                 <edgeInsets key="layoutMargins" top="8" left="8" bottom="8" right="8"/>
-                                <mutableString key="text">This app provides tracking for a diet system based on one outlined in the book Racing Weight: How to Get Lean for Peak Performance by Matt Fitzgerald.
+                                <string key="text">This app provides tracking for a diet system based on one outlined in the book Racing Weight: How to Get Lean for Peak Performance by Matt Fitzgerald.
 
 As translated, this diet is not intended for weight loss; it is meant to get you eating better.
 
 To get started, eat what you consider to be "well" for a day, calculate that score, and aim for it each day.
 
-In the future, this app will hopefully store each individual day, but for now it's suggested you track the daily scores externally in a tool that can better handle data, graphing, etc.</mutableString>
+In the future, this app will hopefully store each individual day, but for now it's suggested you track the daily scores externally in a tool that can better handle data, graphing, etc.</string>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -457,7 +457,7 @@ In the future, this app will hopefully store each individual day, but for now it
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Back"/>
                                 <connections>
-                                    <segue destination="BYZ-38-t0r" kind="show" customClass="LeftToRight" customModule="Single_Day_Diet" customModuleProvider="target" id="IQF-sL-8ao"/>
+                                    <segue destination="BYZ-38-t0r" kind="show" customClass="LeftToRight" customModule="One_Day_Diet" customModuleProvider="target" id="IQF-sL-8ao"/>
                                 </connections>
                             </button>
                         </subviews>
