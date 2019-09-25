@@ -26,5 +26,6 @@ class LeftToRight: UIStoryboardSegue {
                                    completion: { finished in
                                     src.present(dst, animated: false, completion: nil)
         })
+        src.dismiss(animated: false)
     }
 }
