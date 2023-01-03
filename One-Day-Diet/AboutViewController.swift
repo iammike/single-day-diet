@@ -19,19 +19,19 @@ class AboutViewController: UIViewController {
     @IBOutlet weak var contactMe: UIButton!
     
     @IBAction func linkPressed(sender: UIButton) {
-        var targetURL = ""
         
         switch sender {
         case buyBook:
-            targetURL = "https://amzn.to/2NaoxmW"
+            guard let url = URL(string: "https://amzn.to/2NaoxmW") else { return }
+            UIApplication.shared.open(url)
         case visitSite:
-            targetURL = "http://www.iammike.org"
+            guard let url = URL(string: "http://www.iammike.org") else { return }
+            UIApplication.shared.open(url)
         case contactMe:
-            targetURL = "mailto:mike@iammike.org"
+            guard let url = URL(string: "mailto:mike@iammike.org") else { return }
+            UIApplication.shared.open(url)
         default:
             break
         }
-        
-        UIApplication.shared.open(URL(string: targetURL)!)
     }
 }
